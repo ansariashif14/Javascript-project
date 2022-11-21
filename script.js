@@ -4,7 +4,6 @@ function mySubmit() {
     var outputFormat = parseInt(document.querySelector('#outputFormat').value);
     var input = document.querySelector('#input').value;
     var output;
-    var displayOut;
   
     if (input == '') {
       output = 'Input Required';
